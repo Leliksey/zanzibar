@@ -111,8 +111,10 @@
                         </div>
                         <div class="main__country">
                             <img src="assets/img/flag.svg" alt="" class="main__country-img">
-                            <span class="main__country-name">Танзания</span>
-                            <span class="main__country-text">Стабильные и предсказуемые инвестиции в страну, с одной из самых надёжных экономик мира</span>
+                            <div class="main__country-text-wrap">
+                                <span class="main__country-name">Танзания</span>
+                                <span class="main__country-text">Стабильные и предсказуемые инвестиции в страну, с одной из самых надёжных экономик мира</span>
+                            </div>
                         </div>
                     </div>
                     <div class="main__img">
@@ -301,15 +303,19 @@
                     </div>
                 </div>
                 <div class="about__row">
-                    <img src="/assets/img/avatar.jpg" alt="avatar" class="about__avatar">
-                    <div class="about__row-text">
-                        <div class="about__row-title">Андрей Раменский</div>
-                        <div class="about__row-desc">Руководитель Home For You</div>
+                    <div class="about__row-inner">
+                        <img src="/assets/img/avatar.jpg" alt="avatar" class="about__avatar">
+                        <div class="about__row-text">
+                            <div class="about__row-title">Андрей Раменский</div>
+                            <div class="about__row-desc">Руководитель Home For You</div>
+                        </div>
                     </div>
-                    <button class="button about__row-btn popup__open">Написать руководителю</button>
-                    <a href="tel:+">
-                        <img src="/assets/img/whatsapp_icon.svg" alt="" class="about__row-icon">
-                    </a>
+                    <div class="about__row-inner">
+                        <button class="button about__row-btn popup__open">Написать руководителю</button>
+                        <a href="tel:+">
+                            <img src="/assets/img/whatsapp_icon.svg" alt="" class="about__row-icon">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -358,7 +364,7 @@
                 </div>
             </div>
         </section>
-        <section class="questions">
+        <!--<section class="questions">
             <div class="container">
                 <h2 class="sectionTitle">Ответы на популярные вопросы</h2>
                 <div class="questions__content">
@@ -427,7 +433,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7933.472220172389!2d39.20273307240573!3d-6.1660829828998045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cd0ba23b63ecb%3A0x52c848ab6efc138e!2z0JfQsNC90LfQuNCx0LDRgCwg0KLQsNC90LfQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1744660305129!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </section>
+        </section>-->
         <footer class="footer">
             <div class="container">
                 <div class="footer__content">
@@ -502,6 +508,7 @@
                 </div>
             </div>
             <div class="popup">
+                <div class="popup_mob_close"></div>
                 <div class="popup__title">ЗАКАЖИТЕ ЗВОНОК ЭКСПЕРТА</div>
                 <div class="popup__desc">Укажите свои контакты и эксперт свяжется с вами в первую свободную минуту</div>
                 <div class="popup__form">

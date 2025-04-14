@@ -30,6 +30,10 @@ $(document).ready(function() {
         $(".popup").addClass("open");
         createOverlay();
     });
+    $(".popup_mob_close").on("click", function() {
+        $(".popup").removeClass("open");
+        removeOverlay();
+    });
 
     // Валидация по кнопке
     $('.popup__button').on('click', function () {
@@ -135,10 +139,10 @@ $(document).ready(function() {
             0: {
                 items: 1
             },
-            600: {
+            768: {
                 items: 2
             },
-            1000: {
+            1300: {
                 items: 3
             }
         }
@@ -151,10 +155,13 @@ $(document).ready(function() {
             0: {
                 items: 1
             },
-            600: {
+            576: {
+                items: 2
+            },
+            992: {
                 items: 3
             },
-            1000: {
+            1300: {
                 items: 4
             }
         }
