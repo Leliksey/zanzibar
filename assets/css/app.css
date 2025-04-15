@@ -43,7 +43,7 @@ img {
     content: "";
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/overlay_close.svg);
+    background-image: url(../img/overlay_close.svg);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -323,7 +323,7 @@ img {
 
 .main__info::before {
     content: "";
-    background-image: url(/assets/img/round.svg);
+    background-image: url(../img/round.svg);
     position: absolute;
     left: 0;
     top: 15%;
@@ -764,7 +764,7 @@ img {
     .popup_mob_close {
         width: 16px;
         height: 16px;
-        background-image: url(/assets/img/overlay_close.svg);
+        background-image: url(../img/overlay_close.svg);
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
@@ -860,7 +860,7 @@ img {
 
 .capital {
     padding-bottom: 70px;
-    background-image: url(/assets/img/planet.svg);
+    background-image: url(../img/planet.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 150px 0;
@@ -936,14 +936,14 @@ img {
 }
 .capital__block-list__item::before {
     content: "";
-    background-image: url(/assets/img/list_icon.svg);
+    background-image: url(../img/list_icon.svg);
     width: 19px;
     height: 13px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .capital__block_bg-fill {
-    background-image: url(/assets/img/bg_capital_fill.png);
+    background-image: url(../img/bg_capital_fill.png);
     background-size: cover;
 }
 
@@ -1024,6 +1024,7 @@ img {
 }
 .investments__item {
     position: relative;
+    width: 100%;
 }
 .investments__item img {
     position: relative;
@@ -1101,7 +1102,7 @@ img {
 }
 .economy__item::before {
     content: "";
-    background-image: url(/assets/img/round.svg);
+    background-image: url(../img/round.svg);
     position: absolute;
     left: 0;
     top: 15%;
@@ -1249,7 +1250,7 @@ img {
     /* position: absolute; */
     position: relative;
     pointer-events: all;
-    background-image: url(/assets/img/prev.svg);
+    background-image: url(../img/prev.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 10px;
@@ -1475,7 +1476,7 @@ img {
 
 .about__images::before {
     content: "";
-    background-image: url(/assets/img/round.svg);
+    background-image: url(../img/round.svg);
     position: absolute;
     left: 0;
     top: -15%;
@@ -1524,7 +1525,7 @@ img {
 
 .about__desc::before {
     content: "";
-    background-image: url(/assets/img/quote.svg);
+    background-image: url(../img/quote.svg);
     min-width: 25px;
     height: 25px;
     background-size: contain;
