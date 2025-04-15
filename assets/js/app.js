@@ -33,6 +33,7 @@ $(document).ready(function() {
     $(".popup_mob_close").on("click", function() {
         $(".popup").removeClass("open");
         removeOverlay();
+        $(".burger__close").click();
     });
 
     // Валидация по кнопке
